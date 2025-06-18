@@ -36,12 +36,13 @@ This project proposes a novel machine learning pipeline for **crop recommendatio
 │   ├── Baseline_Models_Comparison.ipynb
 ├── README.md
 ```
-| Model               | Accuracy | F1 Score |
-| ------------------- | -------- | -------- |
-| ✅ MSVM-DAG-FFO      | 0.9964   | 0.9964   |
-| Random Forest       | \~0.52   | \~0.49   |
-| XGBoost             | \~0.51   | \~0.49   |
-| Logistic Regression | \~0.47   | \~0.42   |
+| Model               | Accuracy   | F1 Score   |
+| ------------------- | ---------- | ---------- |
+| ✅ **MSVM-DAG-FFO**  | **0.9964** | **0.9964** |
+| Random Forest       | 0.8452     | 0.8398     |
+| XGBoost             | 0.8373     | 0.8328     |
+| Logistic Regression | 0.4302     | 0.3942     |
+
 
 🛠️ How to Run
 Clone this repo:
