@@ -39,18 +39,17 @@ The dataset used for this crop recommendation project comprises various soil and
 ```
 | **Model**                           | **Accuracy** | **Weighted F1** |
 | ----------------------------------- | ------------ | --------------- |
-| **MSVM-DAG-FFO (proposed)**         | **0.9694**   | **0.9696**      |
-| LightGBM (class\_weight='balanced') | 0.9483       | 0.9428          |
-| Random Forest (weighted)            | 0.9493       | 0.9444          |
-| Hierarchical Model (sklearn)        | 0.4486       | 0.4381          |
-| MLPClassifier                       | 0.6592       | 0.5986          |
-| Focal Loss (PyTorch model)          | 0.8337       | 0.8306          |
-| Decision Tree (weighted)            | 0.6486       | 0.6236          |
-| SVM (weighted)                      | 0.2791       | 0.3205          |
-| Balanced Random Forest              | 0.5364       | 0.2928          |
-| Logistic Regression (weighted)      | 0.6281       | 0.6284          |
-| EasyEnsembleClassifier              | 0.1899       | 0.2222          |
-
+| **MSVM-DAG-FFO (Proposed)**         | **0.9964**   | **0.9964**      |
+| LightGBM (class\_weight='balanced') | 0.4483       | 0.4528          |
+| Random Forest (weighted)            | 0.4393       | 0.4404          |
+| Hierarchical Model (sklearn)        | 0.4186       | 0.4381          |
+| MLPClassifier                       | 0.3682       | 0.3886          |
+| Focal Loss (PyTorch model)          | 0.3837       | 0.3986          |
+| Decision Tree (weighted)            | 0.3204       | 0.3363          |
+| SVM (weighted)                      | 0.2791       | 0.3206          |
+| Balanced Random Forest              | 0.2364       | 0.2693          |
+| Logistic Regression (weighted)      | 0.1912       | 0.2184          |
+| EasyEnsembleClassifier              | 0.1899       | 0.2212          |
 
 
 🛠️ How to Run
