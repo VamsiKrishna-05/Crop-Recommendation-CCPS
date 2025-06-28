@@ -30,11 +30,8 @@ The dataset used for this crop recommendation project comprises various soil and
 ## 📁 Project Structure
 
 ```bash
-├── dataset/
-│   └── Crop Recommendation using Soil Properties and Weather Prediction.csv
-├── notebooks/
-│   ├── MSVM_DAG_FFO_Model.ipynb
-│   ├── Baseline_Models_Comparison.ipynb
+│── Crop Recommendation using Soil Properties and Weather Prediction.csv
+│── MSVM_DAG_FFO_Model.ipynb
 ├── README.md
 ```
 | **Model**                           | **Accuracy** | **Weighted F1** |
